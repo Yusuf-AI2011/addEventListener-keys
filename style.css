@@ -1,0 +1,41 @@
+body {
+    background-color: #000000;
+}
+
+.wrapper {
+    margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+    color: #ffffff;
+}
+
+.input {
+    width: 340px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
